@@ -145,7 +145,7 @@
      <div>
          <div class="contact-form">
              <br>
-          <form id="contact-form" method="POST" action="#">
+          <form id="contact-form" method="POST" action="index.html" onclick="myfunction()>
               <input name="name" type="text" class="form-control" placeholder="Name" required> <br><br>
               <input name="email" type="email" class="form-control" placeholder="Email" required> <br><br>
               <input name="number" type="text" class="form-control" placeholder="Mobile Number" required> <br><br>
@@ -153,11 +153,17 @@
 
               <input name="message" type="text" class="form-control" placeholder="Message" required> <br><br>
    
-              <a href="thankyoupage.html">
+              <a href="index.html">
               <input type="submit" class="form-control submit" value="SEND MESSAGE">
             </a>
 
           </form>
+	<script>
+          function myfunction() {
+            alert("Thank you for your response .... Our Team will contact you at the earliest !!");
+          }
+          </script>									   
+										   
          </div>
      </div>
 
